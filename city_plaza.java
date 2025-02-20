@@ -3,7 +3,7 @@ public class city_plaza {
     public static int max(int a,int b){
         return (a>b) ? a:b; //this is if and else statement
     }
-    public static void leap() {
+    public static void leap() { //This method Check in intelligen Idea
         for (int year = 1; year <= 50; year++) {
             int i = (year % 4 == 0) ? year : year;
             System.out.println(i);
